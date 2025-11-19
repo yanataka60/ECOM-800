@@ -15,8 +15,8 @@
 
 　・SRAMのバッテリーバックアップ。
 
-[回路図](https://github.com/yanataka60/SC-MP-II-Single-Board-Computer/blob/main/Kicad/SCMP.pdf)
-![回路図](https://github.com/yanataka60/SC-MP-II-Single-Board-Computer/blob/main/Kicad/SCMP_1.jpg)
+[回路図](https://github.com/yanataka60/ECOM-800/blob/main/Kicad/ECOM-800.pdf)
+![回路図](https://github.com/yanataka60/ECOM-800/blob/main/Kicad/ECOM-800_1.jpg)
 
 ## 部品表
 |番号|品名|数量|備考|
@@ -52,7 +52,7 @@
 　SW1の取付向きに注意してください。押されていない状態で上側がONとなるようにつけます。
 
 ## ボードの完成写真
-![SCMP_1.jpg](https://github.com/yanataka60/SC-MP-II-Single-Board-Computer/blob/main/JPEG/SCMP.jpg)
+![SCMP_1.jpg](https://github.com/yanataka60/ECOM-800/blob/main/JPEG/ECOM-800.JPG)
 
 ## バッテリーバックアップ
 　ECOM-800の回路の特性として電源スイッチがONになった時にデータ・スイッチ(D0～D7)の状態がメモリ0000hに書き込まれてしまうようです。
