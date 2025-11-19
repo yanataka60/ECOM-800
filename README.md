@@ -13,7 +13,7 @@
 
 　・SRAMを6264としています。
 
-　・SRAMのバッテリーバックアップ。
+　・SRAMのバッテリーバックアップを付加しました。
 
 [回路図](https://github.com/yanataka60/ECOM-800/blob/main/Kicad/ECOM-800.pdf)
 ![回路図](https://github.com/yanataka60/ECOM-800/blob/main/Kicad/ECOM-800_1.jpg)
