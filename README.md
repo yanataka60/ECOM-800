@@ -64,4 +64,4 @@
 　KiCADデータおよびガーバーデータはCC BY-SA 4.0 (Copyright (C) 2024 Kazuhiro Ouchi)です。  
 
 ## 謝辞
-　トグルスイッチ、プッシュスイッチのKiCADデータは、かんぱぱ様の「COSMAC Toy Computer Version 2」を使わせていただきました。ありがとうございます。
+　トグルスイッチ、プッシュスイッチのKiCADデータは、かんぱぱ様の「COSMAC Toy Computer Version 2」を使わせていただきました。
