@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Memory_RAM2)(type Legacy)(uri ${KIPRJMOD}/Memory_RAM2.lib)(options "")(descr ""))
+  (lib (name Arduino)(type Legacy)(uri ${KIPRJMOD}/Arduino.lib)(options "")(descr ""))
+  (lib (name 2732)(type Legacy)(uri ${KIPRJMOD}/2732.lib)(options "")(descr ""))
+  (lib (name scmp2)(type Legacy)(uri ${KIPRJMOD}/scmp2.lib)(options "")(descr ""))
+  (lib (name 6264)(type Legacy)(uri ${KIPRJMOD}/6264.lib)(options "")(descr ""))
+)

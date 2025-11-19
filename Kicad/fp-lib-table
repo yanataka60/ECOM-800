@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Kicad)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name Switch_Toggle)(type KiCad)(uri ${KIPRJMOD}/footprints/Switch_Toggle.pretty)(options "")(descr ""))
+  (lib (name Slide_Switch)(type KiCad)(uri ${KIPRJMOD}/footprints/Slide_Switch.pretty)(options "")(descr ""))
+)

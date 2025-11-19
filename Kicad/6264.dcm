@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6264
+D 8Kx8 bit Static RAM
+K RAM SRAM
+F https://www.futurlec.com/Datasheet/Memory/62256.pdf
+$ENDCMP
+#
+#End Doc Library
