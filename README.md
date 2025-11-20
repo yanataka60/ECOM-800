@@ -75,6 +75,11 @@
 
 　　 1978年 1月号 P267～P277
 
+## SAMPLEプログラム
+　記事に掲載されている回転プログラムを発展させ、ナイトライダー風にしてみました。
+
+　sampleフォルダ中のsample.lst又はsample.binを参照して入力してください。
+
 ## 利用上の注意
 　KiCADデータおよびガーバーデータはCC BY-SA 4.0 (Copyright (C) 2024 Kazuhiro Ouchi)です。  
 

@@ -1,0 +1,85 @@
+ AS V1.42 Beta [Bld 189] - Source File sample.asm - Page 1 - 11/20/2025 15:7:27
+
+
+       1/       0 :                     
+       2/       0 :                     	ORG	0x0000
+       3/       0 :                     
+       4/       0 : 08                  	NOP
+       5/       1 :                     
+       6/       1 : C4 08               	LDI	0x08
+       7/       3 : 35                  	XPAH	P1
+       8/       4 : C4 80               LOOP0:	LDI	0x80
+       9/       6 : C8 28               LOOP1:	ST	WORK
+      10/       8 : C9 00               	ST	0(P1)
+      11/       A : 1E                  	RR
+      12/       B : C8 23               	ST	WORK
+      13/       D : 8F 10               	DLY	0x10
+      14/       F : C0 1F               	LD	WORK
+      15/      11 :                     
+      16/      11 : D4 FE               	ANI	0xFE
+      17/      13 : 98 02               	JZ	L1
+      18/      15 :                     
+      19/      15 : 90 EF               	JMP	LOOP1
+      20/      17 :                     
+      21/      17 : C4 08               L1:	LDI	0x08
+      22/      19 : 35                  	XPAH	P1
+      23/      1A : C4 01               	LDI	0x01
+      24/      1C : C8 12               LOOP2:	ST	WORK
+      25/      1E : C9 00               	ST	0(P1)
+      26/      20 : C0 0E               	LD	WORK
+      27/      22 : 02                  	CCL
+      28/      23 : F0 0B               	ADD	WORK
+      29/      25 : C8 09               	ST	WORK
+      30/      27 : 8F 10               	DLY	0x10
+      31/      29 : C0 05               	LD	WORK
+      32/      2B :                     
+      33/      2B : 98 D7               	JZ	LOOP0
+      34/      2D :                     
+      35/      2D : 90 ED               	JMP	LOOP2
+      36/      2F :                     
+      37/      2F : 00                  WORK:	DB	0
+      38/      30 :                     
+ AS V1.42 Beta [Bld 189] - Source File sample.asm - Page 2 - 11/20/2025 15:7:27
+
+
+  Symbol Table (* = unused):
+  --------------------------
+
+*ARCHITECTURE :                                        "i386-unknown-win32" - |
+*BIGENDIAN :                      0 - | *BRANCHEXT :                      0 - |
+*CASESENSITIVE :                  0 - | *COMPMODE :                       0 - |
+*CONSTPI :        3.141592653589793 - | *DATE :                "11/20/2025" - |
+*FALSE :                          0 - | *FULLPMMU :                       1 - |
+*HAS64 :                          0 - | *HASDSP :                         0 - |
+*HASFPU :                         0 - | *HASPMMU :                        0 - |
+*INEXTMODE :                      0 - | *INLWORDMODE :                    0 - |
+*INMAXMODE :                      0 - | *INSRCMODE :                      0 - |
+*INSUPMODE :                      0 - |  L1 :                            17 C |
+*LISTON :                         1 - |  LOOP0 :                          4 C |
+ LOOP1 :                          6 C |  LOOP2 :                         1C C |
+*MACEXP :                         7 - | *MOMCPU :                         0 - |
+*MOMCPUNAME :               "SC/MP" - | *NESTMAX :                      100 - |
+*PACKING :                        0 - | *PADDING :                        1 - |
+*RELAXED :                        0 - | *TIME :                   "15:7:26" - |
+*TRUE :                           1 - | *VERSION :                     142F - |
+ WORK :                          2F C | *Z80SYNTAX :                      0 - |
+
+     35 symbols
+     30 unused symbols
+
+ AS V1.42 Beta [Bld 189] - Source File sample.asm - Page 3 - 11/20/2025 15:7:27
+
+
+  Code Pages:
+  ----------
+
+STANDARD (0 changed characters)
+
+1 code page
+
+0.16 seconds assembly time
+
+     38 lines source file
+      2 passes
+      0 errors
+      0 warnings
